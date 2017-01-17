@@ -48,6 +48,7 @@ class TextInput extends Control {
                         onKeyPress={this.props.onKeyPress}
                     />
                     {hasClear}
+                    {this.props.children}
                 </span>
             </span>
         );
